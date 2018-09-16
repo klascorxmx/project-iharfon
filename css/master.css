@@ -1,3 +1,9 @@
+/*PREFIJOS PARA CADA NAVEGADOR 
+-webkit- Google Chrome ,Safari,Navegador android
+-moz- Firefox
+-o- Opera
+-khtml- konqueror
+*/
 *{
 	margin: 0;
 	padding: 0;
@@ -16,8 +22,8 @@ header,nav,section,aside,footer,hgroup,article,figure,figcaption,{
 	display: block;
 }
 #index{
-	background-color: #333333;
-	/**background-image: url("../img/engranajes.jpg");**/ 
+	background: -webkit-linear-gradient(top, #A60000 0%, #1F2576 100%);
+	 /*background-color: #333333;*/ 
 	background-repeat: repeat-y;
 	background-position: center top;
 	background-attachment: fixed;
@@ -175,8 +181,8 @@ header,nav,section,aside,footer,hgroup,article,figure,figcaption,{
 }
 
 .footer-copy{
-	margin-top: 8%;
-	margin-left: 1%;
+	margin-top: 6%;
+	margin-left: 2%;
 
 }
 .footer-redes{
