@@ -7,8 +7,8 @@
 	   <meta name = "keywords" content = "manueles,noffra,anubis,harfon">
 	   <meta name="viewport" content="width=divice-width, user-scalable=no, initial-scale=1.0,maximun-scale=1.0, minimun-scale=1.0">
 	   <meta http-equiv="x-ua-compatible" content="ie-edge">
-	   <link rel="stylesheet" type="text/css" href="css/master.css">
 	   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	   <link rel="stylesheet" type="text/css" href="css/master.css">
 	   <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 	   <link href = "https://fonts.googleapis.com/css?family= Arvo " rel = "stylesheet">
 	   <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
@@ -17,8 +17,8 @@
                       <!--aqui terminan los meta datos-->
 
                    <!-- principio de cuerpo -->	
-	<body id="index">
-	    <div id="contenedor">
+	<body class="index">
+	    <div class="contenedor">
 	<!-- inicio de la cabecera-->	
 		<div>
 			<figure><img src="img/Banner-6.png" width="1200px" height="220px" alt="banner principal"></figure>
@@ -185,7 +185,7 @@
 		
 	<!-- fin de la barra lateral -->
 	
-	<!--inicio del pie de pagina -->	
+			
 	    	<footer id="pie">
 	    		<div class="footer-container">
 	    			<div class="footer-main">
@@ -228,12 +228,12 @@
 	    			</div>
 	    		</div>
 		    </footer>
-		</div>
+		
 	<!-- fin del pie de pagina -->
-	<script src="js/jquery-3.3.1.slim.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>	
-
+			<script src="js/jquery-3.3.1.slim.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>	
+		</div>
 	</body>
 <!-- fin del cuerpo -->	
 </html>
